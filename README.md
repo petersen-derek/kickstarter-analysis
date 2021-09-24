@@ -5,22 +5,28 @@
 
 ### Purpose
 
-Vizualize funding results based on their lanch date and funding goal to help Louise see how her play "Fever" stacked up.
+The purpose of this project is to vizualize funding results based on their lanch date and goal to help Louise see how her play "Fever" compares to other performances around the globe.
 
 ## Analysis and Challenges
 
 ### Analysis of Outcomes Based on Launch Date
-The analysis performed to visualize the funding results based on launch date is using a line chart to trend by month the funding results for the 8 years we have data for.  
+One way to analyse this data is by looking at the month the performance launched it's funding to see if certain months are more successful than others.  The line chart below shows the results of funding goals by month over the last eight years.  
+
 ![Theatre_Outcomes_vs_Launch](https://user-images.githubusercontent.com/90879042/134605053-f047273c-45a8-4fcc-ac63-f1eba0309851.png)
+
+As you can clearly see in the chart above, the months of May through August have had the highest number of successful launches with May having the most.  
 
 
 ### Analysis of Outcomes Based on Goals
-To visualize the funding results based on the goal set a line chart is used.  To make the analysis more clean than just plotting the goals as is, the goals were grouped into ~5K increment buckets.  Below is an image of said analysis.
+Another way to analyze this data is to see how successful funding is based on the goal that is set.  For example, are higher goals as successful as lower goals.  To visualize this set a line chart is used with tiers of funding along the horizonal axis.
+
 ![Outcomes_vs_Goals](https://user-images.githubusercontent.com/90879042/134605084-3e88ad99-cc41-486c-bb86-ca6b14e547df.png)
+
+As the chart above shows, the lower the goal amount the higher the success rate with a couple exceptions.  
 
 
 ### Challenges and Difficulties Encountered
-One challenge that users may experience in the first analysis is related to the "grouping" of dates in the pivot table.  The first time I came accross this in the real world it took some googling to figure out how to get the date to show up how I wanted it.  
+One challenge that users may experience in the first analysis is related to the "grouping" of dates in the pivot table.  The first time I came accross this in the real world it took some googling to figure out how to get the date to show up grouped by month as opposed to specific dates.  
 
 A challenge I encountered in the second analysis was that my total count of plays did not match the dataset.  The reason for this was my formulas initially were all setup as just greater than and less than without an equals to. I added this to my formulas and created a pivot chart to verify numbers were accurate. 
 
@@ -54,8 +60,8 @@ A challenge I encountered in the second analysis was that my total count of play
 
 
 
-
-#PRACTICE
+-------------------------------------
+# Below is all the module practice items
 
 # An Analysis of Kickstarter Campaigns.
 Performing analysis on Kickstarter data to uncover trends
